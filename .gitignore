@@ -1,0 +1,19 @@
+# Ignore specific files
+secret.txt
+config.env
+
+# Ignore file types
+*.log
+*.tmp
+*.cache
+
+# Ignore directories
+node_modules/
+build/
+dist/
+
+# Ignore files in any directory
+**/*.bak
+
+# Exception: Track this file even if ignored
+!important.log
